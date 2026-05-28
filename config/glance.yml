@@ -2,12 +2,6 @@ server:
   port: ${PORT}
   proxied: true
 
-auth:
-  secret-key: ${GLANCE_SECRET_KEY}
-  users:
-    admin:
-      password-hash: ${GLANCE_PASSWORD_HASH}
-
 pages:
   - name: Home
     columns:
