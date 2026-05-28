@@ -11,28 +11,42 @@ pages:
             first-day-of-week: monday
 
           - type: rss
-            limit: 10
-            collapse-after: 3
+            title: System Design
+            limit: 15
+            collapse-after: 5
             cache: 12h
             feeds:
-              - url: https://selfh.st/rss/
-                title: selfh.st
-                limit: 4
-              - url: https://ciechanow.ski/atom.xml
-              - url: https://www.joshwcomeau.com/rss.xml
-                title: Josh Comeau
-              - url: https://samwho.dev/rss.xml
-              - url: https://ishadeed.com/feed.xml
-                title: Ahmad Shadeed
+              - url: https://arpitbhayani.me/blogs/feed.xml
+                title: Arpit Bhayani
+              - url: https://arpit.substack.com/feed
+                title: Arpit Newsletter
+              - url: https://newsletter.pragmaticengineer.com/feed
+                title: Pragmatic Engineer
+              - url: https://blog.bytebytego.com/feed
+                title: ByteByteGo
+              - url: https://newsletter.systemdesign.one/feed
+                title: System Design (Neo Kim)
+              - url: https://designgurus.substack.com/feed
+                title: System Design Nuggets
+              - url: https://architecturenotes.co/feed
+                title: Architecture Notes
+              - url: https://martinfowler.com/feed.atom
+                title: Martin Fowler
 
-          - type: twitch-channels
-            channels:
-              - theprimeagen
-              - j_blow
-              - giantwaffle
-              - cohhcarnage
-              - christitustech
-              - EJ_SA
+          - type: rss
+            title: Substack
+            limit: 12
+            collapse-after: 4
+            cache: 12h
+            feeds:
+              - url: https://yewjin.substack.com/feed
+                title: What YJ Thinks
+              - url: https://koffeeguy.substack.com/feed
+                title: Karan Dhir
+              - url: https://shreyasdoshi.substack.com/feed
+                title: Shreyas Doshi
+              - url: https://cutlefish.substack.com/feed
+                title: The Beautiful Mess
 
       - size: full
         widgets:
