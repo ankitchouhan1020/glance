@@ -57,45 +57,38 @@ pages:
 
           - type: videos
             channels:
-              - UCXuqSBlHAE6Xw-yeJA0Tunw # Linus Tech Tips
-              - UCR-DXc1voovS8nhAvccRZhg # Jeff Geerling
+              - UC_b1GUJv_2QiMP4BxC9-Dxg # Arpit Bhayani
+              - UC2D2CMWXMOVWx7giW1n3LIg # Andrew Huberman
+              - UCJY3HORlEGL1YRlcffpBBaw # Mikey Posada
               - UCsBjURrPoezykLs9EqgamOA # Fireship
               - UCBJycsmduvYEL83R_U4JriQ # Marques Brownlee
               - UCHnyfMqiRRG1u-2MsSQLbXA # Veritasium
 
-          - type: group
-            widgets:
-              - type: reddit
-                subreddit: technology
-                show-thumbnails: true
-              - type: reddit
-                subreddit: selfhosted
-                show-thumbnails: true
-
       - size: small
         widgets:
           - type: weather
-            location: London, United Kingdom
+            location: Bengaluru, India
             units: metric
             hour-format: 12h
 
           - type: markets
             markets:
-              - symbol: SPY
-                name: S&P 500
-              - symbol: BTC-USD
-                name: Bitcoin
-              - symbol: NVDA
-                name: NVIDIA
-              - symbol: AAPL
-                name: Apple
-              - symbol: MSFT
-                name: Microsoft
+              - symbol: ^NSEI
+                name: Nifty 50
+              - symbol: ^BSESN
+                name: Sensex
+              - symbol: RELIANCE.NS
+                name: Reliance
+              - symbol: TCS.NS
+                name: TCS
+              - symbol: INFY.NS
+                name: Infosys
+              - symbol: HDFCBANK.NS
+                name: HDFC Bank
 
-          - type: releases
-            cache: 1d
-            repositories:
-              - glanceapp/glance
-              - go-gitea/gitea
-              - immich-app/immich
-              - syncthing/syncthing
+          - type: repository
+            title: Papertrail
+            repository: ankitchouhan1020/papertrail
+            pull-requests-limit: 3
+            issues-limit: 3
+            commits-limit: 5
