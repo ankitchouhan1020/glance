@@ -2,7 +2,7 @@ import { Container, getContainer } from "@cloudflare/containers";
 
 export class GlanceContainer extends Container {
   defaultPort = 8080;
-  sleepAfter = "1m";
+  sleepAfter = "5m";
   envVars = { PORT: "8080" };
 }
 
