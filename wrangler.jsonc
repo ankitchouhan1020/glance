@@ -16,7 +16,7 @@
   "containers": [
     {
       "class_name": "GlanceContainer",
-      "image": "./Dockerfile",
+      "image": "registry.cloudflare.com/e45854653013284c6d88d08d30564d9c/glance-glancecontainer:46dfdadd",
       "instance_type": "lite",
       "max_instances": 1
     }
